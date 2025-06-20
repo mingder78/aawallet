@@ -1,6 +1,6 @@
 {
   "name": "hardhat-deterministic-deploy-factory",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
      "deploy": "npx hardhat run scripts/deploy.ts",
      "userop": "npx hardhat run scripts/sendUserOp.ts",
