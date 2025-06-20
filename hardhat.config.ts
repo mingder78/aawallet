@@ -3,6 +3,7 @@ import '@typechain/hardhat'
 import { HardhatUserConfig } from 'hardhat/config'
 import 'hardhat-deploy'
 import '@nomiclabs/hardhat-etherscan'
+import "@nomicfoundation/hardhat-viem";
 
 import 'solidity-coverage'
 
