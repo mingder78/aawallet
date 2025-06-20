@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "scripts": {
      "deploy": "npx hardhat run scripts/deploy.ts",
-     "userop": "npx hardhat run scripts/sendUserOp.ts"
+     "userop": "npx hardhat run scripts/sendUserOp.ts",
+     "node": "npx hardhat node",
+     "compile": "npx hardhat compile",
+     "deploy:ep": "npx hardhat run scripts/deploy_entrypoint.cjs --network localhost"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
